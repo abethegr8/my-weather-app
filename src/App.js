@@ -7,7 +7,7 @@ import Forecast from './components/Forecast';
 
 const URL = `https://api.openweathermap.org/data/2.5/weather`
 const URL2 = `https://api.openweathermap.org/data/2.5/forecast`
-const API_KEY = `dd5380e508f540aaaed44edde1e3304b`
+const API_KEY = ``
 
 
 function App() {
