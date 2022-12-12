@@ -7,8 +7,7 @@ import Forecast from './components/Forecast';
 
 const URL = `https://api.openweathermap.org/data/2.5/weather`
 const URL2 = `https://api.openweathermap.org/data/2.5/forecast`
-const API_KEY = ``
-
+const API_KEY = process.env.REACT_APP_API_KEY
 
 function App() {
   // This is a useState Function; This is how it is used; lookup info on site 
